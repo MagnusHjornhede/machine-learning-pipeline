@@ -12,11 +12,11 @@ It demonstrates two complementary competencies:
 * Modeling neural dynamics using a Leaky Integrate-and-Fire (LIF) framework
 
 The project bridges conventional AI workflows with neuromorphic computation concepts.
-
+<!--
 <p align="center">
   <img src="plots/pipeline_overview.png" alt="Pipeline Overview Diagram" width="750"/>
 </p>
-
+-->
 ---
 
 ## What This Project Shows
@@ -96,21 +96,21 @@ The second component implements a **Leaky Integrate-and-Fire (LIF)** neuron mode
 ---
 
 ### Membrane Potential Integration
-
+<!--
 <p align="center">
   <img src="plots/potential_build_up_example.png" width="720"/>
 </p>
-
+-->
 The neuron integrates synaptic input until the threshold is reached, then emits a spike and resets — modeling event-driven computation.
 
 ---
 
 ### Spike Threshold Analysis
-
+<!--
 <p align="center">
   <img src="plots/spike_threshold_search.png" width="720"/>
 </p>
-
+-->
 A systematic current sweep determines the minimal synaptic input required for sustained spiking (~160 pA).
 
 This analysis demonstrates:
